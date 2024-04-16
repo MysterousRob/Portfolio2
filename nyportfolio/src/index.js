@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
-import App from './Pages/App';
+import App from './Pages/Home';
 import reportWebVitals from './reportWebVitals';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
   },
   //footer router
    {
-     path: "/Masters", 
-     element: <TheMasters />,
+     path: "", 
+     element: "",
    },
  ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -13,21 +13,6 @@ function Header(){
                 </div>
                 <div className="left-header">
                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
             </header>
         </>

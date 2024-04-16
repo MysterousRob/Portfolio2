@@ -1,11 +1,10 @@
 import '../assets/css/App.css';
+import Header from '../Components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+        <Header />
       <section className='App-body'>
 
       </section>
