@@ -1,20 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
-import App from './Pages/App';
+import App from './Pages/Home';
 import reportWebVitals from './reportWebVitals';
-
+import AboutMe from './Pages/AboutMe';
+import PrevWork from './Pages/PrevWork';
+import Contact from './Pages/Contact';
+import Templates from './Pages/Templates';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
+  //home nav
   {
-   path: "/", 
+   path: "/Home", 
    element: <App />,
+  },
+  {
+   path: "/About", 
+   element: <AboutMe />,
+  },
+  {
+   path: "/Prev", 
+   element: <PrevWork />,
+  },
+  {
+   path: "/Contact", 
+   element: <Contact />,
+  },
+  {
+   path: "/Templates", 
+   element: <Templates />,
   },
   //footer router
    {
-     path: "/Masters", 
-     element: <TheMasters />,
+     path: "", 
+     element: "",
    },
  ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
