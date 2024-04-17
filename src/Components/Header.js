@@ -1,6 +1,7 @@
 import React from "react";
 import '../assets/css/Header.css';
-import Nav from "../Pages/State/HeaderData";
+import Nav from "../Pages/State/HeaderData.js";
+
 
 function Header(){
     return(
