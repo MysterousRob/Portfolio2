@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../../index.js';
+import '../../assets/css/Header.css'
 
 export const navOptions = [
     //header nav
     {
-        href: "/Home",
+        href: "/",
         title: "Home",
     },
     {
@@ -32,7 +33,7 @@ const Nav = () => {
       <div className="nav">
         {navOptions.map((nav, i) => (
           <Link key={i} to={nav.href}>
-            <p className="test">
+            <p className="text-title">
               {nav.title}
             </p>
           </Link>

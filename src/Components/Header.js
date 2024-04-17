@@ -1,21 +1,17 @@
 import React from "react";
 import '../assets/css/Header.css';
-import Nav from "../Pages/State/HeaderData.js";
+import Nav from "../Pages/State/HeaderData";
 
 
 function Header(){
     return(
         <>
             <header className="giving-head">
-                <div className="right-header">
-                    <h1>
-                        Robert Gasior
-                    </h1>
-                </div> 
-                <div className="left-header">
+                <div className="header-content">
+                    <h1>Robert Gasior</h1>
                     <Nav />
                 </div>
-            </header>
+                </header>
         </>
     )
 }
