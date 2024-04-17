@@ -1,12 +1,19 @@
 import React from "react";
+import Header from "../Components/Header";
 
 
 function AboutMe() {
     return(
         <>
-        <div>
-            
-        </div>
+           <div>
+                <Header />
+                <div>
+                    <h1>
+                       About Me 
+                    </h1>
+                </div>
+                {/* footer goes here */}
+           </div>
         </>
     )
 }
