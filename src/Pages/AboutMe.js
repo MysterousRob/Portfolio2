@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Components/Header";
-
+import Header from "../Components/Layout/Header";
+import Footer from "../Components/Layout/Footer";
 
 function AboutMe() {
     return(
@@ -12,7 +12,7 @@ function AboutMe() {
                        About Me 
                     </h1>
                 </div>
-                {/* footer goes here */}
+                <Footer />
            </div>
         </>
     )

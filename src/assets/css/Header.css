@@ -14,7 +14,7 @@
 }
 .nav {
     display: flex;
-    padding-left: 220px;
+    padding-left: 185px;
     align-items: baseline;
     flex-direction: row-reverse;
     background: transparent;
@@ -32,4 +32,26 @@
     }
 .text-title{
     color: white;
+}
+@media screen and (max-width: 400px) {
+    .giving-head {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .nav {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .giving-head {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .nav {
+        padding-left: 20px;
+        font-size: 14px;
+    }
 }
