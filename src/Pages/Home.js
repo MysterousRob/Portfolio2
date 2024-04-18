@@ -1,15 +1,12 @@
 import '../assets/css/App.css';
-import Footer from '../Components/Layout/Footer.js';
-import Header from '../Components/Layout/Header.js';
+import Footer from '../Components/Layout/Footer/Footer.jsx';
+import Header from '../Components/Layout/Header/Header.jsx';
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <div>
-
-        </div>
-     <Footer />
+      <Header />
+      <Footer />
     </div>
   );
 }
