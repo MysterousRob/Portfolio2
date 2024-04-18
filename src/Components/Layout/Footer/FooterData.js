@@ -28,4 +28,29 @@ export const footerNavData = [
             },
         ],
     },
+    {
+        header: "Coding Templates",
+        links: [
+            {
+                href: "/",
+                title: "Home",
+            },
+            {
+                href: "/Prev",
+                title: "Prev Projects",
+            },
+            {
+                href: "/Contact",
+                title: "Contact",
+            },
+            {
+                href: "/Templates",
+                title: "Coding Templates",
+            },
+            {
+                href: "/About",
+                title: "About Me",
+            },
+        ],
+    },
 ]

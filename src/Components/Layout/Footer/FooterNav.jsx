@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { footerNavData } from './FooterData'
+import "../Footer/Footer.css"
 
 const FooterNav = () => {
   return (
@@ -8,9 +9,9 @@ const FooterNav = () => {
         {/* You were going straight into footerNavData.links, which is one too deep to access title */}
 
         {footerNavData.map((nav, index) => (
-        <div key={index}>
+        <div key={index} className='navigation'>
             <h3>
-                {nav.title}
+                {nav.header}
             </h3>
             {nav.links.map((link, i) => (
                 <Link key={i} to={link.href}>
