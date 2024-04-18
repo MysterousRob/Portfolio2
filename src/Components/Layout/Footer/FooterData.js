@@ -1,10 +1,9 @@
-
-
+import React from "react";
+import { Link, } from 'react-router-dom';
+import '../../../index';
 
 export const footerNavData = [
     {
-        // Renamed title1 to header
-        // Made first letters lowercase on keys
         header: "Quick Links",
         links: [
             {

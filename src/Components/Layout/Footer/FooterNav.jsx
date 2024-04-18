@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { footerNavData } from './footerNavData'
+import { footerNavData } from './FooterData'
 
 const FooterNav = () => {
   return (
