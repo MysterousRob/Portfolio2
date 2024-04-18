@@ -12,7 +12,7 @@
 .header-content *{
     text-decoration: none;
 }
-.nav {
+.header-nav {
     display: flex;
     padding-left: 185px;
     align-items: baseline;
@@ -24,7 +24,7 @@
     gap: 10px;
     text-decoration: none;
     }
-    .nav * :hover {
+    .header-nav * :hover {
       border: 1px solid white;
       transition: border 0.5s;
       border-radius: 4px;
@@ -39,7 +39,7 @@
         padding-top: 10px;
     }
     
-    .nav {
+    .header-nav {
         padding-left: 20px;
         font-size: 14px;
     }
@@ -50,7 +50,7 @@
         padding-top: 10px;
     }
     
-    .nav {
+    .header-nav {
         padding-left: 20px;
         font-size: 14px;
     }

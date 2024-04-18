@@ -33,7 +33,7 @@ export const navOptions2 = [
 
 const Nav2 = () => {
     return (
-        <div className="nav">
+        <div className="header-nav">
         {navOptions2.Links.map((nav, i) => (
           <div>
             <h3>

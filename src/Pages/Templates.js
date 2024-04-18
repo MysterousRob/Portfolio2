@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../Components/Layout/Header';
-import Footer from '../Components/Layout/Footer';
+import FooterNav from '../Components/Layout/Footer/FooterNav';
+import Header from '../Components/Layout/Header/Header';
 
 const Templates = () => {
     return (
@@ -12,7 +12,7 @@ const Templates = () => {
                     Templates
                 </h1>
             </div>
-            <Footer />
+            <FooterNav />
         </div>
         </>
     );
