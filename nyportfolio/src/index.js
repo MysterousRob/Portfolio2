@@ -1,15 +1,35 @@
-import React from 'react';
+import React from 'react';import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
-import App from './Pages/Home';
-import reportWebVitals from './reportWebVitals';
+import App from './Pages/Home.js';
 
+import AboutMe from './Pages/AboutMe';
+import PrevWork from './Pages/PrevWork';
+import Contact from './Pages/Contact';
+import Templates from './Pages/Templates';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
+  //home nav
   {
    path: "/", 
    element: <App />,
+  },
+  {
+   path: "/About", 
+   element: <AboutMe />,
+  },
+  {
+   path: "/Prev", 
+   element: <PrevWork />,
+  },
+  {
+   path: "/Contact", 
+   element: <Contact />,
+  },
+  {
+   path: "/Templates", 
+   element: <Templates />,
   },
   //footer router
    {

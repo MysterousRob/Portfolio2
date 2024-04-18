@@ -1,16 +1,12 @@
 import '../assets/css/App.css';
-import Header from '../Components/Header';
+import Footer from '../Components/Layout/Footer/Footer.jsx';
+import Header from '../Components/Layout/Header/Header.jsx';
 
 function App() {
   return (
     <div className="App">
-        <Header />
-      <section className='App-body'>
-
-      </section>
-      <footer className='App-footer'>
-
-      </footer>
+      <Header />
+      <Footer />
     </div>
   );
 }
