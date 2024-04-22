@@ -32,8 +32,12 @@
 .progress-container {
     display: flex;
     flex-direction: row;
+    
 }
 
+.progress-container *{
+  font-size: 15px;
+}
 .progress-item {
     margin-bottom: 10px;
     margin-left: 10px;
