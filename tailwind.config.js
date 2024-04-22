@@ -1,4 +1,4 @@
-const { default: daisyui } = require('daisyui');
+const daisyui = require('daisyui');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

@@ -1,0 +1,12 @@
+.home-body *{
+    display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+    }
+    .body-img,
+    .percentages {
+      background-color: #ddd;
+      padding-left: 40px; /* Updated padding to 40px */
+      text-align: center;
+    }
