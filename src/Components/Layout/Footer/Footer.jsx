@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className='foot'>
-        <h1>Contact Me</h1>
+        <h1>Contact Me for a good time UwU</h1>
         <div className='footer-box'>
             <MyForm />
             <FooterNav />
