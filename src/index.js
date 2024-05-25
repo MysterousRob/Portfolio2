@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './assets/css/index.css';
 import App from './Pages/Home.js';
 
-import AboutMe from './Pages/AboutMe';
+import AboutMe from './Pages/about me/AboutMe.js';
 import PrevWork from './Pages/PrevWork';
 import Contact from './Pages/Contact';
 import Templates from './Pages/Templates';

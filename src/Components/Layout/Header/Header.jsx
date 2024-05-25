@@ -8,8 +8,10 @@ function Header(){
         <>
             <header className="giving-head">
                 <div className="header-content">
-                    <h1>Robert Gasior</h1>
-                    <Nav />
+                    <h1 className="name">Robert Gasior</h1>
+                    <div className="navigation">
+                        <Nav />
+                    </div>
                 </div>
                 </header>
         </>

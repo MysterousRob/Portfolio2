@@ -9,7 +9,7 @@ const FooterNav = () => {
         {/* You were going straight into footerNavData.links, which is one too deep to access title */}
 
         {footerNavData.map((nav, index) => (
-        <div key={index} className='navigation'>
+        <div key={index} className='Navigation'>
             <h3>
                 {nav.header}
             </h3>

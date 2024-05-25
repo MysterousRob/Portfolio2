@@ -32,17 +32,26 @@ export const skills = [
       name: "Git",
       percentage: 75,
     },
+    {
+      name: "Redux",
+      percentage: 75,
+    },
   ]
 
 
 
 const ProgressBars = () => {
-    const percentage = 69
   return (
-    <div className='progress-container' >
-        {skills.map((skill, index) => (
-            <CircularProgressbar className='progress-bar' value={skill.percentage} text={`${skill.name}%`} />
-        ))}
+    <div className='progress-container'>
+      {skills.map((skill, index) => (
+        <div key={index} className={`progress-bar-container ${skill.name.length > 8 ? 'long-name' : ''}`}>
+          <CircularProgressbar
+            className='progress-bar'
+            value={skill.percentage}
+            text={`${skill.name}`}
+          />
+        </div>
+      ))}
     </div>
   )
 }

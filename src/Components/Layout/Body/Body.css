@@ -2,22 +2,55 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
     }
    .home-body * {
     margin: 30px;
     padding: 20px;
     background-color: rgb(0, 0, 0, 0.4);
    }
-   image-section {
+  .image-section {
     margin-bottom: 20px;
+    text-align: center;
+    flex: 1;
 }
-
+/*text section*/
+.name-box {
+  padding-left: 25px;
+}
+.text-box *{
+  font-size: 40px;
+}
+.text-box {
+  padding: 10px;
+  margin-left: 90px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.text-box h1{
+  text-align: center;
+  font-family: Roboto serif SemiBold 600 Italic;
+  text-align: left;
+}
+.text-box h2{
+  text-align: center;
+  text-align: left;
+  font-family: Lato Black 900 Italic;
+}
+.text-box p{
+  text-align: center;
+  text-align: left;
+  margin-left: 100px;
+}
 .image-container {
-    width: 300px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
+    padding: 15px;
+    width: 428px;
+    height: 862px;
     overflow: hidden;
     border-radius: 10px;
+    display: inline-block;
 }
+
 
 .image-container img {
     width: 100%;
@@ -26,52 +59,52 @@
 }
 
 .progress-section {
-    width: 1800px; /* Adjust as needed */
+    width: auto; 
 }
 
 .progress-container {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
 }
 
-.progress-container *{
+.progress-container * {
   font-size: 15px;
 }
+
 .progress-item {
-    margin-bottom: 10px;
-    margin-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
+
 .percentage {
-  position: relative; /* Set the position relative to the parent p tag */
+  position: relative;
   display: inline-flex;
   padding: 10px;
   font-family: Oswald;
 }
 
-.percentage::after,
-.percentage::before {
-  position: absolute;
-  content: '%'; 
-  top: 0; 
-  right: 0; 
-  font-weight: bolder;
-  display: block;
-  width: 10px; /* Adjust as needed */
-  height: 20px; /* Adjust as needed */
-  padding-left: 2px; /* Adjust as needed */
-  line-height: 36px; 
+/* Adjustments for circular progress bars */
+.progress-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
 }
+
+.progress-bar-container {
+  width: calc(25% - 10px); /* Adjust as needed */
+  text-align: center;
+}
+
 .progress-bar {
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    border-radius: 50%;
-    background-color: lightgray;
-    background: conic-gradient(
-      #007bff calc(var(--value) * 1%),
-      lightgray calc(var(--value) * 1%));
+  width: 100%;
 }
-.progress-label {
-    text-align: center;
-    margin-top: 5px;
+
+/* Adjust font size dynamically based on length of skill name */
+.progress-bar .CircularProgressbar-text {
+  font-size: 14px;
+}
+
+.progress-bar.long-name .CircularProgressbar-text {
+  font-size: 12px;
 }
