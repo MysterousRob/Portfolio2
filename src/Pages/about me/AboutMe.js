@@ -13,7 +13,7 @@ function AboutMe() {
                        About Me 
                     </h1>
                 </div>
-                {/* <div className="information">
+                <div className="information">
                     <div className="professional-background">
                         <h2>
                             Professional Background
@@ -176,36 +176,7 @@ function AboutMe() {
                             Although my list of hobbies may seem short, these activities are integral to my lifestyle and personal growth, contributing significantly to my overall well-being and shaping the person I am today.
                         </p>
                     </div>
-                </div> */}
-                <div className="join join-vertical w-full">
-                    <div className="collapse collapse-arrow join-item border border-base-300">
-                        <input type="radio" name="my-accordion-4" defaultChecked /> 
-                            <div className="collapse-title text-xl font-medium">
-                                Click to open this one and close others
-                            </div>
-                            <div className="collapse-content"> 
-                                <p>hello</p>
-                            </div>
-                    </div>
-  <div className="collapse collapse-arrow join-item border border-base-300">
-    <input type="radio" name="my-accordion-4" /> 
-    <div className="collapse-title text-xl font-medium">
-      Click to open this one and close others
-    </div>
-    <div className="collapse-content"> 
-      <p>hello</p>
-    </div>
-  </div>
-  <div className="collapse collapse-arrow join-item border border-base-300">
-    <input type="radio" name="my-accordion-4" /> 
-    <div className="collapse-title text-xl font-medium">
-      Click to open this one and close others
-    </div>
-    <div className="collapse-content"> 
-      <p>hello</p>
-    </div>
-  </div>
-</div>
+                </div>
                 <Footer />
            </div>
         </>
